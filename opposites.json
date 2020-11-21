@@ -1,0 +1,11 @@
+{
+  "pairs": [
+    {"negative": "hot", "positive": "cold"},
+    {"negative": "ugly", "positive": "pretty"},
+    {"negative": "metal", "positive": "poppy"},
+    {"negative": "disgusting", "positive": "delicious"},
+    {"negative": "mean", "positive": "nice"},
+    {"negative": "ignorant", "positive": "wise"},
+    {"negative": "boring", "positive": "fun"}
+  ]
+}

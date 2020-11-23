@@ -7,6 +7,8 @@ class Needle {
   show() {
     stroke(color("white"));
     line(this.location, METER.LOCATION, this.location, METER.LOCATION+METER.HEIGHT);
+    
+    this.show();
   }
   
   setLocation(x) {

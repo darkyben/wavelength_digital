@@ -1,18 +1,21 @@
 class Spectrum {
 
-  constructor() {
+  constructor(opposites) {
     this.CLOSE = 10;
     this.MEDIUM = 40;
     this.FAR = 80;
 
-    // this.terms = opposites[floor(random(opposites.length))];
+    this.terms = opposites;
     this.point = floor(random(width));
     this.revealed = true;
+    
+    this.show();
   }
 
   show() {
+    console.log(this.terms);
     text(this.terms.negative, 10, METER.LOCATION-20);
-    text(this.terms.positive, width-30, METER.LOCATION-20);
+    text(this.terms.positive, width-40, METER.LOCATION-20);
     
     stroke(color("grey"));
     fill(color("grey"));
